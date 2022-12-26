@@ -22,7 +22,7 @@ body {
   height: 8px;
   border-radius: 50%;
   background: #fff;
-  animation: fall 10s linear;
+  /* animation: fall 10s linear; */
 }
 
 @keyframes fall {
