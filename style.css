@@ -7,3 +7,29 @@
   border: none;
   outline: none;
 }
+
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #202020;
+}
+
+.snowflake {
+  position: absolute;
+  top: -8px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #fff;
+  animation: fall 10s linear;
+}
+
+@keyframes fall {
+  from {
+  }
+  to {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
